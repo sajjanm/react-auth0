@@ -28,14 +28,6 @@ function App(props) {
         <img src={logo} className="App-logo" alt="logo" />
         <h1 className="App-title">Welcome to React, {props.name}</h1>
         {mainComponent}
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
